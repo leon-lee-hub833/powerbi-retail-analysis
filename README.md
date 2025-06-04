@@ -37,10 +37,13 @@ ReportingporiedID, Period, FiscalYear, FiscalMonth, Month
 13.Gross Margin Percentage This Year = [Gross Margin This Year]/[TotalSalesTY]  
 14.Gross Margin Percentage Last Year =  [Gross Margin Last Year]/[TotalSalesLY]  
 
+15.Total store count =  DISTINCTCOUNT([LocationID])  
+16.New Srore Count = CALCULATE(COUNTA([Store Type]), FILTER(ALL(Store), [Store Type]="New Store"))  
+17.Annual Sales per Square Foot = ([TotalSalesTY]/(DISTINCTCOUNT([MonthID])*SUM(Store[SellingAreaSize])))*12  
+
+## Analysis 
+![image](https://github.com/user-attachments/assets/2802d4da-5543-4f06-b0d8-6d25169bbbd0)  
 
 
-
-
-![image](https://github.com/user-attachments/assets/2802d4da-5543-4f06-b0d8-6d25169bbbd0)
 ![image](https://github.com/user-attachments/assets/aedb8a9d-a38d-49e7-bad8-f99d46d34d8a)
 ![image](https://github.com/user-attachments/assets/c3bfbca0-672c-4c11-b347-36dc9e0c7afc)
