@@ -1,21 +1,21 @@
 # Powerbi-Retail-Analysis
-A Power BI project for essential retail KPI analysis 
-The structure are as follow  
-Sales Table  
+A Power BI project for essential retail KPI analysis   
+## Data Schema   
+### Sales Table  
 MonthID, ItemID, LocationID, Sum_GrossMarginAmount, Sum_regular_Sales_Dollars, Sum_Markdown_Sales_dollars,  
 ScenarioID, ReportingPeriodID, Sum-Regular_Sales_Units, Sum_Markdown_Sales_Units  
 
-District Table  
+### District Table  
 DistrictID, District, DM_pic_fl, DM_Pic, BusinessUnitID, DMImage  
 
-Item Table  
+### Item Table  
 ItemID, Segment, Category, Buyer, FamilyNane  
 
-Store Table  
+### Store Table  
 LocationID, CityName, Territory, PostalCode, OpenDate, SellingAreaSize, DistrictName, Name, StoreNumberName, City  
 Chain, DM, DM_pic, DistrictID, OpenYear, StoreType, OpenMonth No., OpenMonth  
 
-Time Table 
+### Time Table 
 ReportingporiedID, Period, FiscalYear, FiscalMonth, Month  
 
 
